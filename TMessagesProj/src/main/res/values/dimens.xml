@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_right_pad_text">6dp</dimen>
+    <dimen name="menu_right_pad_layout">6dp</dimen>
+
+    <dimen name="color_swatch_large">64dp</dimen>
+    <dimen name="color_swatch_small">48dp</dimen>
+    <dimen name="color_swatch_margins_large">8dp</dimen>
+    <dimen name="color_swatch_margins_small">4dp</dimen>
+
+</resources>

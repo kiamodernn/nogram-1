@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg_dialog_pass"
+    android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"
+            android:maxHeight="48dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/draw_pattern_unlock"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+        <com.amnix.materiallockview.MaterialLockView
+            xmlns:lockview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lp_get_pass"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".6"
+            android:layout_gravity="center"
+            lockview:LOCK_COLOR="#fff"
+            android:layout_alignParentBottom="true"
+            lockview:WRONG_COLOR="#ff0000"
+            lockview:CORRECT_COLOR="#00ff00"/>
+        <TextView
+            android:id="@+id/txt_cancell_lock"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/Cancel"
+            android:background="@drawable/edittext_round"
+            android:textColor="#780000"
+            android:alpha=".5"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="22sp" />
+</LinearLayout>

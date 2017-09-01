@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "976919947579",
+    "firebase_url": "https://nogram-9e419.firebaseio.com",
+    "project_id": "nogram-9e419",
+    "storage_bucket": "nogram-9e419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976919947579:android:9c10e6790b741cb7",
+        "android_client_info": {
+          "package_name": "ir.nogram.messanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976919947579-batujjgiv33dig0gqhcg7l9ntp08rran.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.nogram.messanger",
+            "certificate_hash": "0c51ebeff6d0213a581c9a24120aad375bf2f83a"
+          }
+        },
+        {
+          "client_id": "976919947579-a3krjc8hdedvs8jhir90e0795dbf1be3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2_ufFCuOZblKCtmgCn7FyPFMgFvyzJA"
+        },
+        {
+          "current_key": "AIzaSyBVFJp08u0s0Ra7OVxRDed-hT5e-u8nhdo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976919947579-a3krjc8hdedvs8jhir90e0795dbf1be3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976919947579:android:6eb6b6c4df8fc447",
+        "android_client_info": {
+          "package_name": "ir.nogram.messanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976919947579-ed4ri1o28rvvdt8lj8h8l1neuc4325p8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.nogram.messanger",
+            "certificate_hash": "0c51ebeff6d0213a581c9a24120aad375bf2f83a"
+          }
+        },
+        {
+          "client_id": "976919947579-a3krjc8hdedvs8jhir90e0795dbf1be3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2_ufFCuOZblKCtmgCn7FyPFMgFvyzJA"
+        },
+        {
+          "current_key": "AIzaSyBVFJp08u0s0Ra7OVxRDed-hT5e-u8nhdo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976919947579-a3krjc8hdedvs8jhir90e0795dbf1be3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

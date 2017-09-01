@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+    >
+  <LinearLayout
+      android:layout_margin="5dp"
+      android:background="@color/white"
+      android:padding="8dip"
+
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  <ir.nogram.users.views.CustomTextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/item_title"
+      android:text="Do Some Work "
+    android:textSize="18dip"
+      android:padding="5dp"
+      android:layout_gravity="right|center_vertical"
+      android:gravity="right|center_vertical"
+
+      android:textStyle="bold" />
+
+  <ir.nogram.users.views.CustomTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Monday 12/15/2016 "
+
+      android:padding="5dp"
+      android:id="@+id/item_details"
+    android:textSize="14dip"
+      android:layout_gravity="right|center_vertical"
+android:gravity="right|center_vertical"
+      android:textColor="@color/black" />
+  </LinearLayout>
+</LinearLayout>
+

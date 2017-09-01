@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layoutRoot"
+        android:layout_margin="3dp"
+        android:padding="8dp"
+        android:background="@color/item_cat"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="2dp"
+            android:layout_margin="3dp"
+            android:id="@+id/imgDeleteCat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/chats_delete"
+            />
+        <ImageView
+            android:padding="2dp"
+            android:layout_margin="3dp"
+
+            android:id="@+id/imgAddDialogToCat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/add"
+            />
+        <ImageView
+            android:padding="2dp"
+            android:layout_margin="3dp"
+
+            android:id="@+id/imgEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/floating_pencil"
+            />
+        <ir.nogram.users.views.CustomTextView
+            android:id="@+id/ctxCatName"
+            android:text="0"
+            android:gravity="right|center_vertical"
+            android:padding="8dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            app:fontSize="17"
+            app:fontColor="@color/white"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

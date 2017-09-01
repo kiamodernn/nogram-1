@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+          <LinearLayout
+
+              android:layout_margin="3dp"
+              android:padding="5dp"
+              android:background="@drawable/textview"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_weight=".7"
+              android:layout_height="match_parent">
+
+              <LinearLayout
+                  android:orientation="vertical"
+                  android:id="@+id/layout_root"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+              </LinearLayout>
+               <ir.nogram.users.views.CustomTextView
+                   android:id="@+id/ctx_change"
+                   android:text="0"
+                   android:gravity="right|center_vertical"
+                   android:paddingRight="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   app:fontSize="12"
+                   />
+
+          </LinearLayout>
+</LinearLayout>

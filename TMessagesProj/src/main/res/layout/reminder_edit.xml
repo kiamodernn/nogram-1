@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white">
+
+  <ScrollView
+    android:layout_height="0dp"
+    android:layout_width="fill_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+      android:padding="8sp"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+      <TextView
+         android:textColor="@color/black"
+        style="@style/widget"
+          android:padding="8dp"
+        android:text="@string/reminder_title" />
+
+      <EditText
+        style="@style/widget"
+        android:textColor="@color/black"
+        android:id="@+id/title"
+        android:singleLine="true"
+          android:padding="8dp"
+          android:background="@drawable/edittext_round" />
+
+      <LinearLayout
+        android:paddingTop="8sp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+          android:id="@+id/alarm_checkbox"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/green"
+            android:textColorHighlight="@color/green"
+          android:layout_height="wrap_content"
+          android:text="Alarm" />
+
+        <Spinner
+          android:id="@+id/occurence_spinner"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:visibility="gone"
+          android:background="@color/black"
+          android:layout_height="wrap_content"
+          android:spinnerMode="dropdown"
+          android:entries="@array/occurence" />
+
+      </LinearLayout>
+
+      <LinearLayout
+        android:paddingTop="8sp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:visibility="gone"
+          android:id="@+id/date_button"
+          android:layout_weight="2"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:onClick="onDateClick" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+          <ir.nogram.users.views.CustomTextView
+              android:layout_width="match_parent"
+              android:text="@string/reminder_date"
+              android:layout_height="wrap_content" />
+          <Button
+              android:text="1395/02/12"
+              android:id="@+id/btn_jalali"
+              android:background="@drawable/btnshadow"
+              android:layout_width="match_parent"
+              android:textColor="@color/black"
+              android:layout_margin="5dp"
+              android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+    android:orientation="vertical"
+            >
+
+          <ir.nogram.users.views.CustomTextView
+              android:layout_width="match_parent"
+              android:text="@string/reminder_time"
+              android:layout_height="wrap_content" />
+          <Button
+              android:id="@+id/time_button"
+              android:layout_width="match_parent"
+              android:textColor="@color/black"
+              android:text="12:36"
+              android:layout_margin="5dp"
+              android:background="@drawable/btnshadow"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:onClick="onTimeClick" />
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </ScrollView>
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:padding="8sp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+      style="@style/edit_button"
+      android:id="@+id/done"
+        android:background="@drawable/btn_green"
+      android:text="@string/save"
+      android:onClick="onDoneClick" />
+
+    <Button
+      style="@style/edit_button"
+      android:id="@+id/cancel"
+      android:text="@string/Cancel"
+        android:background="@drawable/btn_orange_selector"
+      android:onClick="onCancelClick" />
+
+  </LinearLayout>
+
+</LinearLayout>
+

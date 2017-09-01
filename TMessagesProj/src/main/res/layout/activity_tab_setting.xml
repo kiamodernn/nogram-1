@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/allTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:id="@+id/txtTabAll"
+                    android:textSize="18dp"
+                    android:text="@string/AllTab"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/userTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabUser"
+                    android:text="@string/UsersTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/groupTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabGroup"
+                    android:text="@string/GroupTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/superGroupTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabSuperGroup"
+                    android:text="@string/SuperGroupTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_supergroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/allGroupTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabAllGroup"
+                    android:text="@string/AllGroupTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_supergroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chanelsTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabChannel"
+                    android:text="@string/ChanelsTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_channel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/botTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabBot"
+                    android:text="@string/BotsTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_bot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/favoriteTab"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtTabFavorite"
+                    android:text="@string/FavooriteTab"
+                    android:gravity="right|center_vertical"
+                    android:padding="8dp"
+                    android:textSize="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/tab_favs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

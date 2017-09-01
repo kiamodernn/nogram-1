@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:padding="8dp"
+                android:id="@+id/txt_font_default_tel"
+                android:tag= "fonts/rmedium.ttf"
+                android:textSize="18dp"
+                android:text="@string/font_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_faraz"
+                android:tag="fonts/faraz.ttf"
+
+                android:text="@string/font_faraz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:textSize="18dp"
+
+                android:tag="fonts/IRANSansMobile.ttf"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_iran_sans"
+                android:text="@string/font_iran_sans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_iran_sans_bold"
+                android:text="@string/font_iran_sans_bold"
+                android:tag="fonts/IRANSansMobile_Bold.ttf"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:tag="fonts/IRANSansMobile_Light.ttf"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_iran_sans_light"
+                android:text="@string/font_iran_sans_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:tag="fonts/IRANSansMobile_Medium.ttf"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_iran_sans_medium"
+                android:text="@string/font_iran_sans_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:tag="fonts/IRANSansMobile_UltraLight.ttf"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_iran_sans_ultra_light"
+                android:text="@string/font_iran_sans_ultra_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:tag="fonts/BNazaninBold.ttf"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_bnazanin"
+                android:text="@string/font_bnazanin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="right|center_vertical"
+                android:tag="fonts/BYekan.ttf"
+                android:textSize="18dp"
+
+                android:padding="8dp"
+                android:id="@+id/txt_font_byekan"
+                android:text="@string/font_byekan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="@color/gray_list_bg"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
