@@ -1,4 +1,5 @@
-## Telegram messenger for Android
+## نوگرام تلگرام غیررسمی
+##با امکانات فراوان نوگرام تلگرام غیررسمی
 
 [Telegram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
 This repo contains the official source code for [Telegram App for Android](https://play.google.com/store/apps/details?id=ir.nogram.messanger).
